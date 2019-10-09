@@ -43,9 +43,9 @@ work on the edge.
 
 Consul provides layer 7 features for path-based routing, traffic shifting,
 load balancing, and telemetry. Consul enforces authorization and identity to
-layer 4 only -- either the TLS connection can be established or it can't.
+layer 4 only &mdash; either the TLS connection can be established or it can't.
 We believe service identity should be tied to layer 4, whereas layer 7 should be
-used for routing, telemetry, etc. Consul will be adding more layer 7 features in the future.
+used for routing, telemetry, etc. We will be adding more layer 7 features to Consul in the future.
 
 The data plane for Consul is pluggable. It includes a built-in proxy with
 a larger performance trade off for ease of use. But you may also use third
